@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Identity from "./components/kelas";
 import Gambar1 from "./assets/images/image1.jpg";
 import Gambar2 from "./assets/images/image2.jpg";
+import Gambar3 from "./assets/images/avatar.png";
 import Collection from "./components/fungsi";
 
 // import reportWebVitals from './reportWebVitals';
@@ -30,6 +32,19 @@ ReactDOM.render(
       isNameBold
       image={option[1].image}
     />
+<Identity
+      nama="Muhammad Dafi Ramadhan"
+      nim="21120118130080"
+      angkatan="2018"
+      image={Gambar3}
+    />
+    <Identity
+      nama="Elvitro Gumelar Agung"
+      nim="21120117140022"
+      angkatan="2017"
+      image={Gambar3}
+    />
+
   </React.StrictMode>,
   document.getElementById("root")
 );
